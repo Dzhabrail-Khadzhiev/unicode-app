@@ -1,13 +1,208 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: auto;
+}
+
+.header {
+  width: 1200px;
+  margin: auto;
+}
+
+.header-content {
+  width: 370px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-block-header {
+  height: 90px;
+  background-color: black;
+  margin: 20px auto;
+}
+
+.first-block-header p {
+  font-family: "Anton", sans-serif;
+  transform: rotate(-0.25turn);
+  font-size: 60px;
+  color: white;
+}
+
+.second-block-header p {
+  font-family: "Anton", sans-serif;
+  font-size: 90px;
+}
+
+/***************************************/
+
+.header-categoryes {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: auto;
+}
+
+.categoryes-btn {
+  width: 900px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+
+.categoryes-btn button {
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  background: inherit;
+  font-size: 20px;
+}
+
+.line-block {
+  width: 1200px;
+  border-bottom: 2px solid;
+}
+
+.categoryes-btn :hover {
+  border-bottom: 2px solid black;
+}
+
+/***************************************/
+
+.post-content img {
+  width: 460px;
+  height: 450px;
+  border-radius: 15px;
+}
+.post-content {
+  margin-top: 30px;
+}
+.post-content h3 {
+  width: 400px;
+  font-family: "Anton", sans-serif;
+  margin: 10px auto;
+  line-height: 20px;
+  text-align: left;
+}
+.post-content button {
+  width: 200px;
+  margin: auto;
+  border: none;
+  background-color: inherit;
+  color: blue;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  width: 1200px;
+  margin: 70px auto;
+}
+.main-content {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.post-content p {
+  width: 400px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  margin: 10px auto;
+}
+
+/***************************************/
+
+.spinner {
+  width: 200px;
+  margin: 70px auto;
+}
+
+.category {
+  width: 1400px;
+  margin: 70px auto;
+}
+
+.category-content {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.category-cards img {
+  border-radius: 15px;
+  width: 450px;
+  height: 450px;
+}
+
+.category-cards h3 {
+  width: 400px;
+  font-family: "Anton", sans-serif;
+  margin: auto;
+  line-height: 20px;
+  text-align: left;
+}
+
+.category-cards button {
+  width: 200px;
+  margin: auto;
+  border: none;
+  background-color: inherit;
+  color: blue;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.category-cards p {
+  width: 400px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  margin: 10px auto;
+}
+
+/***************************************/
+
+.full-post {
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.full-post-block img {
+  width: 1000px;
+  height: 800px;
+}
+
+.full-post-block h3 {
+  margin: 20px auto;
+  width:  800px;
+  font-family: "Anton", sans-serif;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.full-post-block p {
+  margin: 30px auto;
+  width:  1000px;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 50px;
+  text-align: center;
 }
